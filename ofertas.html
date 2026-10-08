@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ofertas - Mi Tienda</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+    header { background-color: #131921; color: white; text-align: center; padding: 15px; }
+    header h1 { margin: 0; font-size: 24px; }
+    nav { background-color: #232f3e; padding: 10px; text-align: center; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 900px; margin: 20px auto; padding: 20px; text-align: center; }
+    .contenedor-productos { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-bottom: 30px; }
+    .tarjeta { background-color: white; border: 1px solid #ddd; border-radius: 5px; padding: 15px; width: 200px; text-align: center; }
+    .tarjeta img { width: 100%; height: 130px; object-fit: cover; border-radius: 4px; }
+    .btn-carrito { width: 100%; padding: 8px; background-color: #f0c14b; border: 1px solid #a88734; border-radius: 4px; font-weight: bold; cursor: pointer; margin-top: 10px; }
+    .btn-carrito:hover { background-color: #ddb347; }
+    footer { background-color: #131921; color: white; text-align: center; padding: 15px; margin-top: 30px; }
+  </style>
+</head>
+
+<body>
+  <header><h1>Mi Tienda en Línea</h1></header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="ofertas.html">Ofertas</a>
+    <a href="masvendido.html">Lo Más Vendido</a>
+  </nav>
+  <main>
+    <h2>Ofertas Especiales</h2>
+
+    <div class="contenedor-productos">
+      <div class="tarjeta">
+        <img src="cafetera.webp" alt="Cafetera">
+        <h3>Cafetera</h3>
+        <p><s>$550 MXN</s> <strong>$400 MXN</strong></p>
+        <button class="btn-carrito">Agregar al carrito</button>
+      </div>
+
+      <div class="tarjeta">
+        <img src="oso.webp" alt="Peluche">
+        <h3>Oso de Peluche</h3>
+        <p><s>$350 MXN</s> <strong>$250 MXN</strong></p>
+        <button class="btn-carrito">Agregar al carrito</button>
+      </div>
+
+      <div class="tarjeta">
+        <img src="bocina.webp" alt="Bocina">
+        <h3>Bocina Bluetooth</h3>
+        <p><s>$700 MXN</s> <strong>$500 MXN</strong></p>
+        <button class="btn-carrito">Agregar al carrito</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>NOMBRE: Leos Yessenia</p>
+    <p>SEMESTRE Y GRUPO: 5-I</p>
+    <p>NUMERO DE CONTROL: 0576</p>
+  </footer>
+</body>
+</html>
